@@ -1,12 +1,3 @@
-### 生成 SSH 公钥
-
-```
-cd ~/.ssh
-ls
-d_rsa      id_rsa.pub  known_hosts
-cat ~/.ssh/id_rsa.pub
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+X1iMFBvyEE3WJQ/SMHsrC8hVxoWa4XIZtybbKnLsgA3UPJHYN66AU7uvfy9JAGQNaxV4T8JBQGoVy+7of8LklhOLXeLu4hvUnw4dyCEVZXLmM/rGGfHHvaJ8jqmq46NYzq25pIbxkAGhgfOnxYZuDBxdKwBXuhMxXiqDL7SKSNpiV5AJ8/wvX9wLDw5rd2sanjUvOEGzVXlYxMXIss97TVWajSYubkGbIrMrYHmRWRa95UXuhCja8yFE1Hp0Vk8UxpZ0AU677v+Jj6p4fSVEGe8AzgETdQUQcgQk6C6lRj7KC8/BmRGrB0DdfimPjiCcXeJoFsUcG6w9dtE4wGVL wb-likai@cai-inc.com
-```
 ### 基础操作
 添加项目到暂存区（stage）
 
