@@ -1,4 +1,4 @@
-## 数组的操作方法（Array）
+# 数组的操作方法（Array）
 
 #### 一. Arry 对象属性
 1. length ：设置或返回数组中元素的数目
@@ -9,7 +9,7 @@
     ```
 #### 二. Array 方法
 
-##### 1. concat()	
+##### 1. concat()
 - 连接两个或更多的数组，并返回结果
     ```
     var arr = [1,2,3]
@@ -17,7 +17,7 @@
     console.log(arr.concat("s", arr1)) //[1,2,3,"s"]
     //
     ```
-#####  2. join()	
+#####  2. join()
 - 把数组的所有元素放入一个字符串。元素通过指定的分隔符进行分隔。
     ```
     var arr = ["q","w","e"]
@@ -26,21 +26,21 @@
     ```
 
 
-##### 3. toString()	
+##### 3. toString()
 - 把数组转换为字符串，并返回结果。
     ```
     var arr = ["q","w","e"]
     console.log(arr.toString()) //q,w,e
     ```
 
-##### 4. pop()	
+##### 4. pop()
 - 删除并返回数组的最后一个元素
-    
+
     ```
     var arr = ["q","w","e"]
     console.log(arr.pop()) // e
     ```
-##### 5. push()	
+##### 5. push()
 - 向数组的末尾添加一个或更多元素，并返回新的长度。
     ```
     var arr = ["q","w","e"]
@@ -48,7 +48,7 @@
     console.log(arr)             // [q", "w", "e", "r"]
     //
     ```
-##### 6. shift()	
+##### 6. shift()
 - 删除并返回数组的第一个元素
     ```
     var arr = ["q","w","e"]
@@ -56,7 +56,7 @@
     ```
 
 
-##### 7. unshift()	
+##### 7. unshift()
 - 向数组的开头添加一个或更多元素，并返回新的长度。
     ```
     var arr = ["q","w","e"]
@@ -65,7 +65,7 @@
     //
     ```
 
-##### 8. slice()	
+##### 8. slice()
 - 从某个已有的数组返回选定的元素
 - arr.slice(start,end)
 - 只有一个参数：
@@ -96,20 +96,20 @@
     var arr = ["q","w","e","r","t"]
     console.log(arr.slice(-2, -1))       //["r"]
     ```
-##### 9. reverse()	
+##### 9. reverse()
     * 颠倒数组中元素的顺序。
     ```
     var arr = ["q","w","e","r","t"]
     console.log(arr.reverse())     //["t", "r", "e", "w", "q"]
     ```
-##### 10. sort()	
+##### 10. sort()
 - 对数组的元素进行排序
 - 1）如果没有参数，将按字母顺序对数组中的元素进行排序，说得更精确点，是按照字符编码的顺序进行排序。（把数组的元素都转换成字符串）
     ```
     var arr = [0, 10, 2, 4, 3, 6]
     console.log(arr.sort()) //[0, 10, 2, 3, 4, 6]
-    
-    
+
+
     var arr = ["a", "b", "d", "e", "c"]
     console.log(arr.sort()) //["a", "b", "c", "d", "e"]
     ```
@@ -123,14 +123,14 @@
     }
     var arr = [1, 3, 5, 8, 10, 23, 44]
     arr.sort(sortNumber) //[1, 3, 5, 8, 10, 23, 44]
-    
+
     function sortNumber(a,b) {
     	return b - a
     }
     var arr = [1, 3, 5, 8, 10, 23, 44]
     console.log( arr.sort(sortNumber)) //[44, 23, 10, 8, 5, 3, 1]
     ```
-##### 11. splice()	
+##### 11. splice()
 - 向/从数组中添加/删除项目，然后返回被删除的项目
 - 1-1)一个参数表示从为该参数的下标截取到最后
     ```
@@ -163,7 +163,7 @@
     var arr = [1,2,3,4,5,6]
     arr.splice(1, 0, "w")
     console.log(arr)  //[1, "w", 2, 3, 4, 5, 6]
-    
+
     //第二个参数不为0
     var arr = [1,2,3,4,5,6]
     arr.splice(1, 2, "w")
