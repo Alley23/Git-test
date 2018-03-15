@@ -6,7 +6,7 @@ $ ls
 authorized_keys2  id_dsa       known_hosts
 config            id_dsa.pub
 ```
-### 2. 生成SSH key 
+### 2. 生成SSH key
 我们需要寻找一对以 id_dsa 或 id_rsa 命名的文件，其中一个带有 .pub 扩展名。 .pub 文件是你的公钥，另一个则是私钥。 如果找不到这样的文件（或者根本没有 .ssh 目录），你可以通过运行 ssh-keygen 程序来创建它们
 ```
 $ ssh-keygen
@@ -27,3 +27,7 @@ d0:82:24:8e:d7:f1:bb:9b:33:53:96:93:49:da:9b:e3 schacon@mylaptop.local
 cat ~/.ssh/id_rsa.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+X1iMFBvyEE3WJQ/SMHsrC8hVxoWa4XIZtybbKnLsgA3UPJHYN66AU7uvfy9JAGQNaxV4T8JBQGoVy+7of8LklhOLXeLu4hvUnw4dyCEVZXLmM/rGGfHHvaJ8jqmq46NYzq25pIbxkAGhgfOnxYZuDBxdKwBXuhMxXiqDL7SKSNpiV5AJ8/wvX9wLDw5rd2sanjUvOEGzVXlYxMXIss97TVWajSYubkGbIrMrYHmRWRa95UXuhCja8yFE1Hp0Vk8UxpZ0AU677v+Jj6p4fSVEGe8AzgETdQUQcgQk6C6lRj7KC8/BmRGrB0DdfimPjiCcXeJoFsUcG6w9dtE4wGVL wb-likai@cai-inc.com
 ```
+
+
+
+[查看更多文章](https://alley23.github.io/)

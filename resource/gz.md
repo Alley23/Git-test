@@ -180,3 +180,9 @@ console.log(person1.hasOwnProperty("name")); //false
 ## 面向对象
 1. [为圆选坑](https://github.com/Alley23/javascript_demo_list/tree/master/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/%E4%B8%BA%E5%9C%86%E9%80%89%E5%9D%91)
 2. [carousel-图文轮播](https://github.com/Alley23/javascript_demo_list/tree/master/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/carousel-%E5%9B%BE%E6%96%87%E8%BD%AE%E6%92%AD)
+
+
+
+
+
+[查看更多文章](https://alley23.github.io/)

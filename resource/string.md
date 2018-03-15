@@ -40,7 +40,7 @@ console.log( str.charCodeAt(1) ) //119
 
 ```
 var str = "ss"
-var str2 = "ww" 
+var str2 = "ww"
 console.log( str.concat("vv") )  //"ssvv"
 console.log( str.concat(str2) )   // "ssww"
 ```
@@ -157,6 +157,4 @@ console.log( newStr );   //这是一段原始文本，需要替换的内容"**�
 
 
 
-
-
-
+[查看更多文章](https://alley23.github.io/)
