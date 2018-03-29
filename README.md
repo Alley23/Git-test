@@ -10,6 +10,8 @@
     * [数组遍历方法](https://github.com/Alley23/Notes-li/blob/master/resource/array-loop.md)
     * [函数this（上下文）总结](https://github.com/Alley23/Notes-li/blob/master/resource/this_zj.md)
     * [构造函数](https://github.com/Alley23/Notes-li/blob/master/resource/gz.md)
+* CSS
+    * [文本超出隐藏](https://github.com/Alley23/Notes-li/blob/master/resource/text-hide.md)
 
 * 开发总结
     * [开发心得](https://github.com/Alley23/Notes-li/blob/master/resource/kfzj.md)
